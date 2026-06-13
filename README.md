@@ -1,6 +1,11 @@
 # Presentation Timer
 
-Simple timer for oral presentations. 
+Simple timer for scientific oral presentations. 
+
+The timer discriminates between following different states:
+1. Presentation time (background color: green)
+2. Questions/Discussion (background color: orange; warning sound is played)
+3. End of allocated time (background color: red; end sound is played)
 
 ## Timer Function
 - Defining the overall timer duration, a warning time and an alert time before the timer runs out
@@ -10,7 +15,7 @@ Simple timer for oral presentations.
     - **green:** normal background during presentation
     - **orange:** warning time (questions)
     - **orange/red flashing:** alert time (close to end of allocated time slot)
-- **red:** allocated time has passed
+    - **red:** allocated time has passed
 - All information (incl. sounds) is contained in one html file for ease of operation (no links to external files).
 - Start/Stop/Pause/Reset of timer
 - Configuration of timer setpoints
